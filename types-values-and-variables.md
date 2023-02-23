@@ -57,4 +57,87 @@ Answer all question!
         console.log(division) // ?
     ```
 
-8. What is NaN in JavaScript.
+8. What is NaN in JavaScript?
+
+9. What do you understand by BigInt in JavaScript.
+
+10. What is the result of this computations?
+    ```javascript
+        let a = 100000000n;
+        let b = 203435000n;
+        console.log(a + b) // ?
+    ```
+
+## 3.3 Text
+
+1. What do you undersand by the "*length of a string*" and give code examples
+
+2. What is the length of an empty string?
+
+3. What are the **similarities** and **differences** of a JavaScript *string* and a JavaScript *array*?
+
+4. How many ways can you include a string literal in your JavaScript program? Give examples
+
+5. What are the advantages of using a backtick `(``)` over single and double quotes?
+
+6. What will be the result of the following code
+```javascript
+    let word = "The sky is not the limit. Aim for the galaxy"; 
+    console.log(word.length) // ?
+
+    word.slice(1,4) // ?
+    word.split(" ") // ?
+    word.indexOf("g") // ?
+    word.indexOf("l", 13) // ?
+    word.lastIndexOf("a") // ?
+    word.toUpperCase() // ?
+    word.toLowerCase() // ?
+    word.replace("limit", "fisayo"); // ?
+    word.padStart(4, "*") // ?
+    word.concat(" Even if you can make it to the sun, don't hesitate.") // ?
+```
+
+7. Refactor the code below using template literal
+```javascript
+let toBeRefacoted = "Computer science is an art " + "not only a science ";
+```
+
+## 3.4 Booleans
+
+1. What are boolean values used for in programming?
+
+2. What will be the output of the code below
+```javascript
+let loggedIn = false;
+
+if(loggedIn === true) {
+    console.log("Welcome");
+} else {
+    console.log("your password is not correct");
+}
+```
+
+## 3.5 Null and Undefined
+
+1. What is the difference between `null` and `undefined`?
+
+## 3.6 Symbols
+
+1. what will be the result of the code below
+```javascript
+    let symA = Symbol("fisayo");
+
+    let symB = Symbol("fisayo");
+
+    console.log(symA === symB) // ?
+
+    // Don't just copy and paste this code and run it, 
+    // take your time to understand what symbols are and 
+    // understand why this code returns what it returns
+```
+
+## 3.7 Global Objects
+
+1. What do you understand by *global object* in javascript
+
+## 3.8 
